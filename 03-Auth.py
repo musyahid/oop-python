@@ -8,7 +8,7 @@ class Auth:
     def login(data):
         if data['username'] == "root" and data['password'] == "secret":
             self.__username = data['username']
-            self.__password = data['username']
+            self.__password = data['password']
             print('login successfully')
         else : 
             print("username atau password salah")
